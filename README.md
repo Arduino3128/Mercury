@@ -1,7 +1,7 @@
 
 Main Menu
 ======
-![Screenshot](preview.png)
+![Screenshot](Mercury Preview.png)
 Installation
 =====
 Requires Python3 (Linux)
