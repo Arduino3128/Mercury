@@ -108,8 +108,10 @@ and violate privacy
 '''
 #terms and condtions
 def clear():
-    os.system('clear')
-    os.system('cls')
+    try:
+        os.system('clear')
+    except:
+        os.system('cls')
 def extra_long():
     time.sleep(10) #Pause == 4 Secs
 def long():
@@ -1021,8 +1023,8 @@ def mainmenu():
 \033[96m | $$\  $ | $$| $$_____/| $$      | $$      | $$  | $$| $$      | $$  | $$
  | $$ \/  | $$|  $$$$$$$| $$      |  $$$$$$$|  $$$$$$/| $$      |  $$$$$$$
  |__/     |__/ \_______/|__/       \_______/ \______/ |__/       \____  $$
-            \033[91m[Coded By MetaChar and Arduino3128] \033[0m                 /$$  | $$
-                                                                 | $$$$$$/
+            \033[91m[Originally Coded By MetaChar] \033[0m                      /$$  | $$
+      \033[91m[BugFixes and Python3 Comp. By Arduino3128]\033[0m                | $$$$$$/
                                                                   \______/
                      [%s]\033[0m
  ''') % ip)
