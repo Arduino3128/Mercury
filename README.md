@@ -4,14 +4,14 @@ Main Menu
 ![Screenshot](preview.png)
 Installation
 =====
-Requires Python2 (Linux)
+Requires Python3 (Linux)
 ```
-apt-get install python2
+apt-get install python3
 ```
 
 
 ```
-git clone https://www.github.com/MetaChar/Mercury
+git clone https://www.github.com/Arduino3128/Mercury
 ```
 
 
