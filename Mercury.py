@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # coding: utf-8
-#tested on win 10
+#tested on Windows 10
+#tested on Kali Linux
 '''
 
 inspired by fsociety and Trity
@@ -1024,7 +1025,7 @@ def mainmenu():
  | $$ \/  | $$|  $$$$$$$| $$      |  $$$$$$$|  $$$$$$/| $$      |  $$$$$$$
  |__/     |__/ \_______/|__/       \_______/ \______/ |__/       \____  $$
             \033[91m[Originally Coded By MetaChar] \033[0m                      /$$  | $$
-      \033[91m[BugFixes and Python3 Comp. By Arduino3128] \033[0m                | $$$$$$/
+      \033[91m[BugFixes and Python3 Comp. By Arduino3128] \033[0m               | $$$$$$/
                                                                   \______/
                      [%s]\033[0m
  ''') % ip)
