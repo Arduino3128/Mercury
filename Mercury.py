@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # coding: utf-8
 #tested on win 10
 '''
@@ -6,8 +6,6 @@
 inspired by fsociety and Trity
 
 '''
-
-
 
 #Modules
 import os, sys,time
@@ -127,7 +125,6 @@ def agreement():
  afile = open(x+'/Extra/Mercury.txt','r+')
  term = afile.readlines() # Creates a list of lines called term
  for line in term: #for lines in term
-     print(line) #prints line
      if 'yes' in line: #if you agreed skip to main menu
          found = True
          PlatformCheck()
@@ -222,7 +219,7 @@ def sub_link():
 def update():
     clear()
     quick()
-    os.system('git clone https://github.com/MetaChar/Mercury'+x+'\\Update') #Just redownloads the repo
+    os.system('git clone https://github.com/Arduino3128/Mercury '+x+'\\Update') #Just redownloads the repo
     sys.exit()
 def twitter():
     print((Fore.CYAN + '    Exclude the @ sign! '))
