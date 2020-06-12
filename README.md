@@ -1,7 +1,7 @@
 
 Main Menu
 ======
-![Screenshot](https://github.com/Arduino3128/Mercury/raw/master/Mercury%20Preview.png)
+![Screenshot](https://github.com/Arduino3128/Mercury/raw/master/Mercury%20Preview.png)  
 Installation
 =====
 Requires Python3 (Linux)
